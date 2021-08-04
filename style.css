@@ -1,0 +1,330 @@
+body
+{
+
+	color:#888888	;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	line-height:18px;
+	background: url(images/bg-body.jpg) repeat;
+    width: 100%;
+}
+.clearfix::after{
+	content:"";
+	display:block;
+	clear:both;
+	height:0px;
+	visibility:hidden;
+	overflow:hidden;
+}
+.mtp{
+		background: url(images/bg-body.jpg) repeat;
+    width: 100%;
+}
+.wrapper{
+	width: 100%;
+	background: linear-gradient(#A4A4A4,#6E6E6E,#585858);
+}
+.bottom{
+	background:url(images/mtp.png);
+}
+a:link
+{
+	color:#FF9900;
+	text-decoration:none;
+}
+a:visited
+{
+	color:#FF9900;
+	text-decoration:none;
+}
+a:active
+{
+	color:#FF9900;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#99CC00;
+	text-decoration:none;
+}
+.box
+{
+	width:85%; 
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	background:#FFFFFF;
+}
+.shell
+{
+	width:100%px;
+	border:0px;
+	padding:4px;
+}
+.shell .banner
+{
+	height:303px;	
+}
+.shell .menuleft
+{
+	width:147px;
+	float:left;
+}
+
+.shell .bottom
+{
+	height:100px;
+}
+.thanhngang
+{
+	color:#FFFFFF;
+	font-size:12px;
+}
+.thanhngang a:link
+{
+	color:#FFFFCC;
+	text-decoration:none;
+}
+.thanhngang a:active
+{
+	color:#FFFFCC;
+	text-decoration:none;
+}
+.thanhngang a:visited
+{
+	color:#FFFFCC;
+	text-decoration:none;
+}
+.thanhngang a:hover
+{
+	color:#FFCC33;
+	text-decoration:none;
+}
+
+.menuleft a:link
+{
+	background:#66A111;
+	color:#FFFFCC;
+	line-height:23px;
+	text-decoration:none;
+	border-bottom:solid #458900 1px;
+	display:block;
+	padding-left:10px;
+	font-size: 13px;
+}
+.menuleft a:active
+{
+	background:#66A111;
+	color:#FFFFCC;
+	line-height:23px;
+	text-decoration:none;
+	border-bottom:solid #458900 1px;
+	display:block;
+	padding-left:10px;
+	
+}.menuleft a:visited
+{
+	background:#66A111;
+	color:#FFFFCC;
+	line-height:23px;
+	text-decoration:none;
+	border-bottom:solid #458900 1px;
+	display:block;
+	padding-left:10px;
+	
+}.menuleft a:hover
+{
+	background:#4A8D00;
+	color:#FFFF99;
+	line-height:23px;
+	text-decoration:none;
+	border-bottom:solid #458900 1px;
+	display:block;
+	padding-left:10px;
+	
+}
+.ht
+{
+	color:#5A9A06;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.ten
+{
+	color:#FF9900;
+	font-size:12px;
+}
+.demuc
+{
+	color:#669900;
+	text-align: center;
+}
+input,select,textarea
+{
+	border:#CCCCCC 1px solid;
+	color:#999933;
+	background:#F2F1EF;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+.dongbang
+{
+	border:1px;
+}
+.dongbang TD
+{
+	border-left:#CCCCCC 1px solid;
+	border-bottom:#CCCCCC 1px solid;
+	line-height:20px;
+	
+}
+.pp
+{
+	margin:15px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:20px;
+	
+}
+.name{
+	padding-left: 10px;
+	text-align: center;
+	padding:10px 0px 10px 0px;
+}
+.name_div{
+	width: 90%;
+	background-color: #A9BCF5;
+	text-align: center;
+	border-radius: 20px;
+}
+.name_div img{
+	border-radius: 20px 20px 20px 20px ;
+}
+.phantrang
+{
+	background:#FFFFFF;
+	border:#CCCCCC 1px solid;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:4px;
+	padding-left:4px; 
+}
+.tranghientai
+{
+	background:#CCCCCC;
+	border:#CCCCCC 1px solid;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:7px;
+	padding-left:7px; 
+}
+
+.chanh-nav {
+    position: fixed;
+    left: 13px;
+    background: #D8D8D8;
+    border-radius: 10px;
+    width: auto;
+    z-index: 150;
+    bottom: 50px;
+    padding: 10px 0;
+    border: 1px solid #ffffff;
+}
+	.chanh-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+	.chanh-nav ul li {
+    list-style: none!important;
+}
+
+
+	.chanh-nav ul>li a {
+    border: none;
+    padding: 3px;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+    line-height: 15px;
+    color: #3616e9;
+    font-weight: 700;
+    max-width: 72.19px;
+    max-height: 54px;
+    text-decoration: none;
+}
+	.chanh-nav ul>li a i.ticon-heart {
+    background: url("images/mes.png") no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+	
+    display: block;
+		border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+	.chanh-nav ul>li a i.ticon-zalo-circle2 {
+    background: url("images/Zalo.png") no-repeat;
+    background-size: contain;
+	margin-top: 5px;
+    width: 36px;
+    height: 36px;
+    display: block;
+	border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+	.chanh-nav ul>li a i.phone {
+    background: url("images/phone.png") no-repeat;
+	margin-top: 10px;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+		border: 1px #d4d4d4 solid;
+    padding: 7px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+	.chanh-nav ul>li a i {
+    width: 33px;
+    height: 33px;
+    display: block;
+    margin: auto;
+}
+
+	.chanh-nav ul>li a i.ticon-angle-up {
+    background: url("images/muitenlen.png") no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    display: block;
+	margin-top: 25px;
+	
+}
+	
+.gui:hover{
+ background-color: #66A111;
+}
+.gui{
+	
+	width: 70px ;
+	height: 40px;
+	background-color: #888888;
+	color:#0101DF;
+}
+.gui1{
+	padding-left: 120px;	
+}
