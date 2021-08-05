@@ -10,5 +10,5 @@ $server_host = "us-cdbr-east-04.cleardb.com";
 $database = "heroku_3b70ef88c110d8b"; 
 $conn = mysqli_connect($server_host,$server_username,$server_password,$database) or die("không thể kết nối tới database");
 mysqli_query($conn,"SET NAMES 'UTF8'");
-$strSQL=mysqli_select_db ($conn,"giayda");
+$strSQL=mysqli_select_db ($conn,"heroku_3b70ef88c110d8b");
 ?>
