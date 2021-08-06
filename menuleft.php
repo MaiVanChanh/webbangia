@@ -1,6 +1,6 @@
 <?php
 	
-	$strSQL="SELECT * FROM loai_giay;" ;
+	$strSQL="SELECT * FROM loai_giay" ;
 	$loaigiay=mysqli_query($conn,$strSQL);
 ?>
 <style type="text/css">
