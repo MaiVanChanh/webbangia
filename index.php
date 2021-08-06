@@ -144,7 +144,7 @@
 									else if($manhinh=='timnangcao')
 										include_once('include/timkiem/ketquatimkiemnangcao.php');
 										
-									else echo $_SERVER['PATH_INFO'];
+									else echo"<center>Không Có Dữ Liệu</center>";
 									}
 								else
 									include_once('include/main.php');
