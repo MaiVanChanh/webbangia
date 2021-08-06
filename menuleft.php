@@ -62,14 +62,14 @@
 		function loaigiay_onsubmit(thamso)
 		{
 		loaigiay.MaLH.value=thamso
-		loaigiay.view.value="/sanpham"
+		loaigiay.view.value="MaiVanChanh/webbangia/blob/master/include/sanpham/"
 		loaigiay.submit()
 		}
 		
 		function timgia_onsubmit(gia)
 		{
 		loaigiay.gia.value=gia
-		loaigiay.view.value="/sanpham"
+		loaigiay.view.value="MaiVanChanh/webbangia/blob/master/include/sanpham/"
 		loaigiay.submit()	
 		}
 	</script>
