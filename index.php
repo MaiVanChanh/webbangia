@@ -118,7 +118,7 @@
 									else if($manhinh=='lienhe')
 										include_once('include/dichvu/lienhe.php');
 									else if($manhinh=='sanpham')
-										include_once('include\sanpham\sanpham.php');
+										include_once('include/sanpham/sanpham.php');
 									else if($manhinh=='tintuc')
 										include_once('include/tintuc/danhmuctin.php');
 									else if($manhinh=='chitiet')
